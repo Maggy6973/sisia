@@ -1,0 +1,79 @@
+body{
+    margin: 0;
+    
+}
+.maggy{
+    position:fixed;
+    top: 0;
+    width: 100%;
+    height: 30px;
+    background-color:blue;
+    z-index: 1000;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+background-image: url(hey.jpeg);
+background-repeat: no-repeat;
+}
+.denno{
+    position: relative;
+    width: 100%;
+    height: 600px;
+    background-color:red;
+    top: 0;
+   padding-top: 100px;
+   padding-right: 200px;
+   padding-left: 100px;
+   background-image:url(chii.jpeg) ;
+   background-repeat: no-repeat;
+   background-size: cover;
+   background-position: center;
+   
+}
+.jymo{
+    position: relative;
+    background-color:greenyellow ;
+    width: 100%;
+    height: 1000px;
+  z-index: 1000;
+  top: 0px;
+  margin-bottom: 800px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 50px; /* Increased font size for text */
+  transform: scale(1.2); /* Optionally scale the entire content */
+  background-image: url(moo.jpeg);
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+  
+  
+
+}
+.denno h1{
+    font-size:200px;
+    font-family: 'Times New Roman', Times, serif;
+    color: black; /* Added text color */
+    top:300px;
+    right: 300px;
+    left: 500px;
+    position: absolute;
+}
+.maggy button{
+    margin: 0 90px;
+     
+}
+.jymo form {
+    font-size: 28px; 
+}
+.jymo fieldset {
+    border: 3px solid black; /* Bold border with 3px thickness */
+    padding: 40px; /* Increased padding for a larger box */
+    width: 80%; /* Make the fieldset wider */
+    height: auto; /* Allow height to adjust based on content */
+}
+.jymo legend {
+    font-size: 32px; /* Increase the size of the legend text */
+    font-weight: bold; /* Make the legend text bold */
+}
